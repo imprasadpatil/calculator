@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Mukta:wght@200&family=Poppins:ital,wght@0,100;0,400;1,300&display=swap');
+
+header{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    
+}
+.main{
+    background-image: url(./Assets/background.jpg);
+    height: 600px;
+}
+#calbody{
+    height: auto;
+    width: 60%;
+    background-color: rgb(99, 122, 122);
+    margin-left: 20%;
+    box-shadow: 10px 20px 10px grey;
+    margin-top: 30px;
+    position: absolute;
+
+}
+.inputbox>input{
+    height: 50px;
+    padding-left: 10%;
+    font-size: 35px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    border: solid 5px rgba(242, 170, 170, 0.697);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.button {
+    height: 70px;
+    width: 80%;
+    background-color: rgba(42, 42, 45, 0.9);
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 5px 2px rgba(242, 170, 170, 0.697);
+}
+.button:hover {background-color: #000000d9}
+
+.button:active {
+  background-color: rgba(242, 170, 170, 0.697);
+  box-shadow: 0 5px rgb(0, 0, 0);
+  transform: translateY(4px);
+}
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    margin-bottom: 50px;
+}
